@@ -1,0 +1,4 @@
+# LocalLedger has no third-party dependencies.
+# Core, CLI, web console and tests run on the Python standard library alone.
+# Optional: Ollama (https://ollama.com) with an open-weight model such as
+# gemma2:2b or llama3.2, for the enhanced narrative. Not required.
