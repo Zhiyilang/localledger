@@ -1,0 +1,47 @@
+ADOBE SYSTEMS INCORPORATED
+Invoice #INV-2026-1841
+Date: 03/07/2026
+Creative Cloud - monthly subscription
+Total: $22.99
+
+UBER TRIP
+Date: 07/07/2026
+Ride to client meeting downtown
+Fare: $18.40
+Total: $18.40
+
+STARBUCKS STORE 1042
+Date: 09/07/2026
+Team coffee meeting
+Total: $6.75
+
+FIGMA INC
+Date: 11/07/2026
+Professional plan - one seat
+Total: $15.00
+
+AMAZON MARKETPLACE
+Order #402-8841233
+Date: 14/07/2026
+Printer paper and toner
+Total: $31.20
+
+LUFTHANSA
+Date: 21/07/2026
+Flight FRA-LHR return
+Total: €210.50
+
+GOOGLE ADS
+Date: 25/07/2026
+Search campaign - July
+Total: $120.00
+
+MYSTERY VENDOR LTD
+Date: 28/07/2026
+Misc supplies
+Total: $9.99
+
+THE BOOKSHOP LONDON
+Date: 30/07/2026
+Course book - advanced design
+Total: £14.99
