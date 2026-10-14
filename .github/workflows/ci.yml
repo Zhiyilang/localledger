@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run eval suite
+        run: python eval.py
+      - name: CLI smoke test
+        run: python -m localledger scan examples/receipts.txt --no-llm --out out
+      - name: Web console smoke test
+        run: |
+          python -m localledger serve --port 8799 --host 127.0.0.1 &
+          sleep 2
+          curl -sf http://127.0.0.1:8799/healthz
+          curl -sf http://127.0.0.1:8799/ | grep -q LocalLedger
